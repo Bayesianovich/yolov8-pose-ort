@@ -1,0 +1,70 @@
+# 排除的分析文档（本地使用）
+YOLOv8-Pose技术深度分析.md
+CLAUDE.md
+
+# 构建文件
+build/
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# 模型文件（通常较大，不适合Git）
+*.onnx
+*.pt
+*.weights
+*.pth
+
+# 测试图片和视频（较大文件）
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# 输出目录
+output/
+results/
+temp/
+
+# 临时文件
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*~
+
+# IDE配置文件
+.vscode/
+.idea/
+*.vcxproj.user
+*.sdf
+*.opensdf
+*.suo
+*.user
+
+# 日志文件
+*.log
+
+# 压缩文件
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# 系统文件
+*.swp
+*.swo
+.directory
+
+# Git提交指南（本地参考）
+Git提交指南.md
